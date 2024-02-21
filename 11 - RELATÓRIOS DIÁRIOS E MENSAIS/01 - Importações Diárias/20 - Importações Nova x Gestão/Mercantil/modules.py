@@ -506,15 +506,22 @@ class work_tables():
             columns_to_rename = ['#ADE#',	'#VALOR_BASE#',	'#VALOR_BASE_BRUTO#',	'#VALOR_CMS#',	'#PRAZO#',	'#CODIGO_TABELA#',	'#DATA_DIGITACAO#']
             dados['ValorEmprestimo'] = dados['ValorEmprestimo'].apply(lambda x:  x.replace(".", "").replace(",", "."))
             comission_storm = dados[['NumeroProposta', 'ValorEmprestimo',  'QuantidadeParcelas', 'CodigoProduto', 'DataCadastro']]
-            comission_storm['comissao'] = [round((float(x) * 1.80 / 100), 2) for  x in dados['ValorEmprestimo']]
+            
+            dados['ValorEmprestimo'] = dados['ValorEmprestimo'].astype(dtype = float)
+            comission_storm['comissao'] = dados['ValorEmprestimo']
+            
             comission_storm['#VALOR_BASE_BRUTO#'] = dados['ValorEmprestimo']
-            comission_storm['QuantidadeParcelas']  = comission_storm['QuantidadeParcelas'] * 12
             comission_storm['DataCadastro'] = comission_storm['DataCadastro'].apply(lambda x: x.split(" ")[0])
             comission_storm = comission_storm[['NumeroProposta', 'ValorEmprestimo', 	'#VALOR_BASE_BRUTO#', 	'comissao', 	'QuantidadeParcelas', 	'CodigoProduto', 	'DataCadastro']]
+            comission_storm['comissao'] = [(round(x * 12 / 100, 2) if j == 13728077  else round(x * 6 / 100, 2)) for x, j in zip(comission_storm['comissao'], comission_storm['CodigoProduto'])]
+            print(comission_storm['comissao'])
+            
             comission_storm.columns = columns_to_rename
             comission_storm['#VALOR_BASE#'] = comission_storm['#VALOR_BASE#'].apply(lambda x: str(x).replace(".", ","))
             comission_storm['#VALOR_BASE_BRUTO#'] = comission_storm['#VALOR_BASE_BRUTO#'].apply(lambda x: str(x).replace(".", ","))
-            comission_storm.to_excel(path_to_save + f"/Comissao_{self.date}.xlsx", index = False)
+            comission_storm['#VALOR_CMS#'] = comission_storm['#VALOR_CMS#'].apply(lambda x: str(x).replace(".", ","))
+            
+            comission_storm.to_csv(path_to_save + f"/Comissao_{self.date}.csv", index = False, sep = ';')
             setattr(self, 'comission_storm', comission_storm)
 
 
@@ -589,14 +596,13 @@ class work_tables():
                                     'FORMALIZACAO DIGITAL'
                                     ]
             
-            production['NUMERO PARCELAS'] = production['NUMERO PARCELAS'] * 12
+            # production['NUMERO PARCELAS'] = production['NUMERO PARCELAS'] * 12
             production['VALOR PARCELAS'] = ""
             production['VALOR QUITAR'] = ""
             production['ORGAO'] = "FGTS"
             production['TIPO DE OPERACAO'] = "MARGEM LIVRE (NOVO)"
 
-
-            production.to_excel(path_to_save + f"/Producao_{self.date}.xlsx", index = False ) 
+            production.to_csv(path_to_save + f"/Producao_{self.date}.csv", index = False , sep = ';') 
             setattr(self, 'production_storm', production)
             self.work_tables = True
 

@@ -4,7 +4,7 @@ from datetime import timedelta
 
 def main():
 
-        datework = date.today() - timedelta(days = 2)
+        datework = date.today() - timedelta(days = 7)
         # downaload_reports(driver = openBrowser().loguinSendKeys(),date = datework)
         
         while datework < date.today():

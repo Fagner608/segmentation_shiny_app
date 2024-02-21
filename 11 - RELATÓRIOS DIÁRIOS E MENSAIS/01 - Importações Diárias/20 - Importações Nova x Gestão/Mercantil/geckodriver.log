@@ -768,3 +768,18 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1700663227759	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 96286	Marionette	INFO	Stopped listening on port 56655
 Dynamically enable window occlusion 1
+1708523804587	geckodriver	INFO	Listening on 127.0.0.1:53222
+1708523807679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileJNvl6W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708523807913	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1708523807998	Marionette	INFO	Listening on port 53230
+WebDriver BiDi listening on ws://127.0.0.1:53223
+Read port: 53230
+1708523808146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53223/devtools/browser/341d76f4-918c-4cb2-8edc-b7251313b42a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1708523836381	Marionette	INFO	Stopped listening on port 53230
+Dynamically enable window occlusion 1
