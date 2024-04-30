@@ -333,7 +333,7 @@ class contracts_conference():
     # Carrega os relatórios usados no storm
     def load_table(self):
         path_new_reports =  f"./relatorios/{self.date.year}/{self.date.month}"
-        path_to_read = path_new_reports + f"/relatorio_pagamentos{self.date.day}_{self.date.month}_{self.date.year}.xls" 
+        path_to_read = path_new_reports + f"/relatorio_{self.date.day}_{self.date.month}_{self.date.year}.xls" 
         if self.process:
             if os.path.exists(path_to_read):
                 dados = pd.read_html(path_to_read, header = 0, thousands='.')

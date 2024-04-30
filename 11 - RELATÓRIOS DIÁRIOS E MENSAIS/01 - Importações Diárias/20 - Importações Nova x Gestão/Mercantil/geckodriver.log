@@ -783,3 +783,608 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
 1708523836381	Marionette	INFO	Stopped listening on port 53230
 Dynamically enable window occlusion 1
+1712144456232	geckodriver	INFO	Listening on 127.0.0.1:51250
+1712144459285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileQQkBP9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712144459549	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712144459633	Marionette	INFO	Listening on port 51258
+WebDriver BiDi listening on ws://127.0.0.1:51251
+Read port: 51258
+1712144459781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51251/devtools/browser/6f304cba-f1fa-4daa-b117-bf85531e31b8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1712144489552	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+1712144562427	Marionette	INFO	Stopped listening on port 51258
+JavaScript warning: https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js, line 1: Script terminated by timeout at:
+gfpf/ct.jws.JWS.readSafeJSONString@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1566842
+ESM5/t.getSessao@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:246430
+ESM5/t.checarPermissao@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:246671
+zUnb/t/this.usuarioPossuiPermissaoFaleComMB@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:2551718
+template@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:2555618
+Mr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171794
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170369
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170796
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170821
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+kr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171671
+fXoL/ts/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1178489
+ts@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1178509
+detectChanges@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1184213
+tick@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1284860
+fXoL/t/next/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1283307
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6645
+onInvoke@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275327
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6585
+run@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2057
+run@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275983
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1283293
+fXoL/subscribe/i<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1253524
+__tryOrUnsub@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:194558
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:193779
+_next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:192950
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:192724
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:912291
+emit@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1253395
+ep@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1276372
+rp@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1276754
+onInvoke@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275355
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6585
+run@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2057
+run@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275983
+scheduleListenerCallback@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:784924
+R1ws/listen/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:787662
+R1ws/l/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:720334
+R1ws/l/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:720334
+R1ws/_onFinish/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:779825
+_onFinish@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:779814
+R1ws/_buildPlayer/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:780163
+invokeTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:7263
+runTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2672
+invokeTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:8313
+p@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:20596
+f@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:20842
+
+Dynamically enable window occlusion 1
+1712233994646	geckodriver	INFO	Listening on 127.0.0.1:51788
+1712233997663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51789" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileHi0k1u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712233997909	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712233997994	Marionette	INFO	Listening on port 51797
+WebDriver BiDi listening on ws://127.0.0.1:51789
+Read port: 51797
+1712233998168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51789/devtools/browser/1b2dfe9c-ddef-440d-a883-865e27b41368
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1712234027933	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+1712234103934	Marionette	INFO	Stopped listening on port 51797
+JavaScript warning: https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js, line 1: Script terminated by timeout at:
+gfpf/ct.jws.JWS.readSafeJSONString@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1566842
+ESM5/t.getSessao@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:246430
+ESM5/t.checarPermissao@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:246671
+zUnb/t/this.usuarioPossuiPermissaoFaleComMB@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:2551718
+template@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:2555618
+Mr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171794
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170369
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170796
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170821
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+kr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171671
+fXoL/ts/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1178489
+ts@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1178509
+detectChanges@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1184213
+tick@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1284860
+fXoL/t/next/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1283307
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6645
+onInvoke@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275327
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6585
+run@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2057
+run@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275983
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1283293
+fXoL/subscribe/i<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1253524
+__tryOrUnsub@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:194558
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:193779
+_next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:192950
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:192724
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:912291
+emit@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1253395
+ep@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1276372
+rp@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1276754
+onInvokeTask@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275273
+invokeTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:7184
+runTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2672
+invokeTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:8313
+p@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:20596
+f@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:20842
+Il.dtAWF@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10285240307101407.js:258:51
+Z@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10285240307101407.js:402:333
+sa/<@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10285240307101407.js:405:310
+
+Dynamically enable window occlusion 1
+1712667517585	geckodriver	INFO	Listening on 127.0.0.1:51665
+1712667520647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileMFZp13"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712667521502	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712667521620	Marionette	INFO	Listening on port 51674
+WebDriver BiDi listening on ws://127.0.0.1:51666
+Read port: 51674
+1712667522053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51666/devtools/browser/3f238364-7dc6-4c08-84dd-250d2fa5787e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1712667551525	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+1712667655275	Marionette	INFO	Stopped listening on port 51674
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js, line 246: Script terminated by timeout at:
+e<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:246:80
+ER@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:572:31
+A<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:184:235
+G8@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:662:410
+TD@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:678:499
+Y@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:138:154
+X@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:51:499
+
+Dynamically enable window occlusion 1
+1712840053788	geckodriver	INFO	Listening on 127.0.0.1:51474
+1712840056873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofile1ze5Ln"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712840057113	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712840057204	Marionette	INFO	Listening on port 51483
+WebDriver BiDi listening on ws://127.0.0.1:51475
+Read port: 51483
+1712840057365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51475/devtools/browser/05d8d016-d6e6-450f-bda0-8851f11aedad
+1712840087129	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1712840243155	Marionette	INFO	Stopped listening on port 51483
+Dynamically enable window occlusion 1
+1712845965643	geckodriver	INFO	Listening on 127.0.0.1:53141
+1712845968761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileWule1u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712845969579	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712845969694	Marionette	INFO	Listening on port 53150
+WebDriver BiDi listening on ws://127.0.0.1:53142
+Read port: 53150
+1712845970096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53142/devtools/browser/d548ee55-fd09-421b-af73-151da1465be9
+1712845999597	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1712846032774	Marionette	INFO	Stopped listening on port 53150
+Dynamically enable window occlusion 1
+1712846058743	geckodriver	INFO	Listening on 127.0.0.1:53230
+1712846061813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileT8zbOx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712846062065	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712846062155	Marionette	INFO	Listening on port 53238
+WebDriver BiDi listening on ws://127.0.0.1:53231
+Read port: 53238
+1712846062318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53231/devtools/browser/df681bfa-88d8-4d03-93d8-d16937395a0c
+1712846092092	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1712846109277	Marionette	INFO	Stopped listening on port 53238
+Dynamically enable window occlusion 1
+1712853512350	geckodriver	INFO	Listening on 127.0.0.1:54133
+1712853515399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54134" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofilewoy77j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712853516266	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712853516402	Marionette	INFO	Listening on port 54142
+Read port: 54142
+WebDriver BiDi listening on ws://127.0.0.1:54134
+1712853516572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54134/devtools/browser/1cc79a72-f2e3-4f82-ba9a-03115b3512c9
+1712853546348	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1712853653938	Marionette	INFO	Stopped listening on port 54142
+Dynamically enable window occlusion 1
+1713362363876	geckodriver	INFO	Listening on 127.0.0.1:52681
+1713362367032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52682" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileiWbEg0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713362368395	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713362368491	Marionette	INFO	Listening on port 52690
+WebDriver BiDi listening on ws://127.0.0.1:52682
+Read port: 52690
+1713362368841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52682/devtools/browser/fff0a08d-baaf-48bf-919b-d3252393206b
+1713362398421	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+1713362493029	Marionette	INFO	Stopped listening on port 52690
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js, line 423: Script terminated by timeout at:
+d<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:423:38
+e<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:246:180
+e<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:232:234
+A</I<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:158:350
+W<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:359:240
+A</this.next@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:165:357
+g</a<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:412
+g<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:305
+d<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:415:420
+A<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:158:281
+W</J<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:332:207
+W<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:359:240
+A</this.next@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:165:357
+g</a<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:412
+g<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:305
+d<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:415:420
+W<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:332:141
+Cc<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:907:241
+W<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:359:240
+A</this.next@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:165:357
+g</a<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:412
+g<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:305
+d<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:415:420
+@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:907:16
+W</R<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:330:387
+W<@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:359:240
+A</this.next@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:165:357
+P@https://www.gstatic.com/recaptcha/releases/rz4DvU-cY2JYCwHSTck0_qm-/recaptcha__pt.js:27:258
+
+JavaScript warning: https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js, line 1: Script terminated by timeout at:
+Lt@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1387881
+ut@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1489180
+ESM5/t.getSessao@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:246453
+ESM5/t.checarPermissao@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:246671
+zUnb/t/this.usuarioPossuiPermissaoFaleComMB@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:2551718
+template@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:2555618
+Mr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171794
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170369
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170796
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1170821
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+Jr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1177671
+fXoL/Cr/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171301
+Cr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171310
+kr@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1171671
+fXoL/ts/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1178489
+ts@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1178509
+detectChanges@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1184213
+tick@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1284860
+fXoL/t/next/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1283307
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6645
+onInvoke@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275327
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6585
+run@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2057
+run@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275983
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1283293
+fXoL/subscribe/i<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1253524
+__tryOrUnsub@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:194558
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:193779
+_next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:192950
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:192724
+next@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:912291
+emit@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1253395
+ep@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1276372
+rp@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1276754
+onInvoke@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275355
+invoke@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:6585
+run@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2057
+run@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:1275983
+scheduleListenerCallback@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:784924
+R1ws/listen/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:787662
+R1ws/l/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:720334
+R1ws/l/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:720334
+R1ws/_onFinish/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:779825
+_onFinish@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:779814
+R1ws/_buildPlayer/<@https://meu.bancomercantil.com.br/main-es2015.ceec8fdff2c050594fb2.js:1:780163
+invokeTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:7263
+runTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:2672
+invokeTask@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:8313
+p@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:20596
+f@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:20842
+
+Dynamically enable window occlusion 1
+1713443250253	geckodriver	INFO	Listening on 127.0.0.1:51241
+1713443253299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileaav2iY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713443253527	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713443253616	Marionette	INFO	Listening on port 51250
+WebDriver BiDi listening on ws://127.0.0.1:51242
+Read port: 51250
+1713443253776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51242/devtools/browser/3f73f009-4d72-434c-be4c-396e9a2d0de5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1713443283547	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+1713443322097	Marionette	INFO	Stopped listening on port 51250
+Dynamically enable window occlusion 1
+1713793103045	geckodriver	INFO	Listening on 127.0.0.1:55334
+1713793106105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofilevlQ3MI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713793106767	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713793106853	Marionette	INFO	Listening on port 55342
+WebDriver BiDi listening on ws://127.0.0.1:55335
+Read port: 55342
+1713793107006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55335/devtools/browser/a77e73dd-3bd1-46d9-80f9-8753a8626dfc
+1713793136793	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1713793176079	geckodriver	INFO	Listening on 127.0.0.1:55403
+1713793179151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55404" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileQSHckj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713793179565	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713793179655	Marionette	INFO	Listening on port 55411
+WebDriver BiDi listening on ws://127.0.0.1:55404
+Read port: 55411
+1713793179815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55404/devtools/browser/36e899ad-6f4b-4935-8c8d-5690eff39ef0
+1713793209591	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1713793228687	Marionette	INFO	Stopped listening on port 55411
+Dynamically enable window occlusion 1
+1713805636111	geckodriver	INFO	Listening on 127.0.0.1:57375
+1713805639163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57376" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofile302s54"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713805640110	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713805640231	Marionette	INFO	Listening on port 57384
+WebDriver BiDi listening on ws://127.0.0.1:57376
+Read port: 57384
+1713805640755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57376/devtools/browser/420299b5-dd41-42d9-a94e-c4e6bb475683
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+1713805670131	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+ConvertWinError received an unrecognized WinError: 0xa1
+1713806253538	Marionette	INFO	Stopped listening on port 57384
+JavaScript warning: https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js, line 1: Script terminated by timeout at:
+pDpN/o/se/i/n.args[0]@https://meu.bancomercantil.com.br/polyfills-es2015.b3bbd89533c9676cd908.js:1:32171
+
+Dynamically enable window occlusion 1
+1713971370722	geckodriver	INFO	Listening on 127.0.0.1:53564
+1713971373787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53565" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileBTOCQz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713971374712	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713971374830	Marionette	INFO	Listening on port 53573
+WebDriver BiDi listening on ws://127.0.0.1:53565
+Read port: 53573
+1713971375224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53565/devtools/browser/eb69397c-3728-45d7-8ae0-d5fe570129cc
+1713971404735	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1713971589539	Marionette	INFO	Stopped listening on port 53573
+Dynamically enable window occlusion 1
+1713979751038	geckodriver	INFO	Listening on 127.0.0.1:54707
+1713979754074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54708" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileRAHrC2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713979754354	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713979754445	Marionette	INFO	Listening on port 54716
+WebDriver BiDi listening on ws://127.0.0.1:54708
+Read port: 54716
+1713979754688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54708/devtools/browser/76781b00-4178-4758-8793-3ce7092a0f43
+1713979784374	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+Exiting due to channel error.
+1713980028562	geckodriver	INFO	Listening on 127.0.0.1:54851
+1713980031589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54852" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofilesda7y2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713980032159	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713980032248	Marionette	INFO	Listening on port 54859
+WebDriver BiDi listening on ws://127.0.0.1:54852
+Read port: 54859
+Read port: 54859
+1713980033823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54852/devtools/browser/f037e3bd-2558-4113-af4d-829c8a9d1ca4
+1713980062179	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1713980476328	Marionette	INFO	Stopped listening on port 54859
+Dynamically enable window occlusion 1
+1714137978625	geckodriver	INFO	Listening on 127.0.0.1:51894
+1714137981719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\MATHEU~1.BLU\\AppData\\Local\\Temp\\rust_mozprofileLc1S1r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714137982551	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714137982671	Marionette	INFO	Listening on port 51903
+WebDriver BiDi listening on ws://127.0.0.1:51895
+Read port: 51903
+1714137983068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51895/devtools/browser/361a2087-13ce-4839-acc3-f0bd0a1acb35
+1714138012569	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://meu.bancomercantil.com.br."
+JavaScript warning: https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js, line 166: Script terminated by timeout at:
+Xf@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:166:7
+Rh@https://meu.bancomercantil.com.br/ruxitagentjs_ICA7NVfqrux_10287240325103108.js:165:203
+
+1714138249916	Marionette	INFO	Stopped listening on port 51903
+Dynamically enable window occlusion 1

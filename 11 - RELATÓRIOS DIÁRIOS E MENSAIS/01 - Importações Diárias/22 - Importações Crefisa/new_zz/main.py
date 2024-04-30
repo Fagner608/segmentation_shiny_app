@@ -8,7 +8,7 @@ def main():
     print("Baixando relatórios antigos.")
     get_tables(driver = openBrowserCrefisa().loguinSendKeys(), date = date_work_old, get_old_tables=True).download()
 
-    date_work = datetime.date.today() - datetime.timedelta(days = 1)
+    date_work = datetime.date.today() - datetime.timedelta(days = 4)
     get_tables(driver = openBrowserCrefisa().loguinSendKeys(), date = date_work).download()
     while date_work < datetime.date.today():
         contracts_conference(date_work= date_work)

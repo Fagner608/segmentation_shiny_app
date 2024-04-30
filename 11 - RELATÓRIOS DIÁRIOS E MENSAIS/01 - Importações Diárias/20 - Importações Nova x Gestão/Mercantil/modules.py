@@ -19,11 +19,11 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from re import search
-
+from tqdm import tqdm
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import *
 from selenium.webdriver import Keys, ActionChains
-
+import sys
 import calendar
 from re import search
 import pandas.io.common
@@ -142,8 +142,8 @@ class downaload_reports():
     
     def __move(self, date_move: datetime.date):
         
-
         date_work = date_move
+        print("Movendo arquivo do dia: ", date_work)
         file_search = 'download/'
         
         path_to_save = f"./Integradas/{date_work.year}/{date_work.month}"
@@ -166,7 +166,12 @@ class downaload_reports():
         if os.listdir(file_search) != 0:
             for path in os.listdir(file_search):
                 os.remove(file_search + path)
-    
+
+        dados = pd.read_excel(f"{path_to_save}/relatorio_{'{:02d}'.format(date_work.day)}_{date_work.month}_{date_work.year}.xlsx")
+        dados.DataCadastro = dados['DataCadastro'].apply(lambda x: x.split(" ")[0])
+        print(f"{'{:02d}'.format(date_work.day)}/{'{:02d}'.format(date_work.month)}/{date_work.year}")
+        dados = dados[dados.DataCadastro == f"{'{:02d}'.format(date_work.day)}/{'{:02d}'.format(date_work.month)}/{date_work.year}"]
+        dados.to_excel(f"{path_to_save}/relatorio_{'{:02d}'.format(date_work.day)}_{date_work.month}_{date_work.year}.xlsx", index = False)
 
 
     def __calendar_manipulate(self, date_work: date, driver: WebDriver):
@@ -192,7 +197,7 @@ class downaload_reports():
                     driver.execute_script("arguments[0].click();", i)
                     break
         else:
-            calendario = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.mat-calendar-period-button > span:nth-child(1)')))
+            calendario = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.mat-calendar-period-button > span:nth-child(1)')))
             driver.execute_script("arguments[0].click();", calendario)
             result = driver.find_elements(By.CSS_SELECTOR, ".mat-calendar-body > tr")
             
@@ -269,11 +274,8 @@ class downaload_reports():
             driver.execute_script("arguments[0].click();", xlsx_button)
             return True
 
-    def __download_integradas(self):
 
-        driver = self.acess_integradas()
-        
-        date_work = self.date
+    def inter_download_reports(self, date_work: date, driver: WebDriver):
 
         while date_work < date.today():
             
@@ -286,7 +288,7 @@ class downaload_reports():
                 if self.__calendar_manipulate(date_work = date_work, driver = driver):
                     
                     while not os.path.exists(f"{path_to_save}/relatorio_{'{:02d}'.format(date_work.day)}_{date_work.month}_{date_work.year}.xlsx"):
-                        print("path ",f"{path_to_save}/relatorio_{'{:02d}'.format(date_work.day)}_{date_work.month}_{date_work.year}.xlsx" )
+                        
                         self.__move(date_work)
                 sleep(3)
                 driver.refresh()
@@ -294,188 +296,142 @@ class downaload_reports():
             else:
                 print("Data já baixada: ", date_work)
             date_work = date_work + timedelta(days = 1)
+
+    def inter_download_concilaition_tmp(self, date_work: date, driver: WebDriver):
+
+            path_to_save = f"./tmp/report_tmp_conciliation_{date_work.year}/{date_work.month}"
+            self.__scroll(driver)
+            if self.__calendar_manipulate(date_work = date_work, driver = driver):
+                while not os.path.exists(f"{path_to_save}/relatorio_{'{:02d}'.format(date_work.day)}_{date_work.month}_{date_work.year}.xlsx"):
+                    self.__move(date_work)
+            sleep(3)
+            driver.refresh()
+
+            
+    def __download_integradas(self):
+
+        driver = self.acess_integradas()
+        date_work = self.date
+        self.inter_download_reports(date_work=date_work, driver=driver)
         driver.close()
+
+    def _download_concoliation_report_tmp(self):
+
+        driver = self.acess_integradas()
+        date_work = self.date
+        self.inter_download_reports(date_work=date_work, driver=driver)
+        driver.close()
+
 
             
 
 
 ## Conciliação
     # classe para retornar dados conciliados
-# classe para retornar dados conciliados
+
+# Falhas na classe conciliation
 class conciliation():
     
     def __init__(self, datework: date):
-        self.load_ZZ = False
+        self.start_app = False
+        self.load_mc = False
         self.load = False
-        self.intersect = False
-        self.datework = datework
+        self.difference = False
+        # A data de referência é de d-2
+        self.datework = datework - timedelta(days = 10)
         self.bank = 'BANCO MERCANTIL DO BRASIL'
-        self.loadzz()
-        self._jsonLoad()
+        self.path = f"./comissoes_nao_pagas/{self.datework.year}/{self.datework.month}/{self.datework.day}"  
         self.concilation()
-        self.save()
-        
+        self.search_payment(date=self.datework)
+        self.__mkdir()
+         
+
+    def start_app(self):
+        if os.path.exists(self.path):
+            pass
+        else:
+            self.start_app = True
+
+    def __mkdir(self):
+        os.makedirs(self.path, exist_ok = True)
 
 
-    # métdo para carregar propostas no zz, e, escrever no json
-            # se o arquivo já existir, ele incrementa o json
     def loadzz(self):
         '''
-        Função para carregar os dados do banco, casa haja dados para a data trabalhada.
+        Função para carregar os dados da nova d-n.
         '''
-        path = "../"
-        date_start = self.datework - timedelta(days = 4)
-        for zz in listdir(path):
-            if search(self.bank, zz):
-                dados = pd.read_excel(path + zz)
-                data = self.datework.strftime("%d/%m/%Y")
-                
-                
-                # if data in dados['DAT_CREDITO'].to_list():
-                if data in dados['DAT_CREDITO'].to_list():
-                
-                    dados = dados[dados.DAT_CREDITO == data]
-                    # dados = dados[(dados.DAT_CREDITO >= date_start) & (dados.DAT_CREDITO >= data)]
-                    
-                    propostas = dados['NUM_PROPOSTA'].to_list()
-                    #escrever o arquiivo, e ler em outro método
+        if self.start_app:
+            path = "../"
+            for zz in listdir(path):
+                if search(self.bank, zz):
+                    dados = pd.read_excel(path + zz, parse_dates=['DAT_CREDITO'])
+                    range_date = pd.date_range(start = self.datework - timedelta(days = 50),
+                                            end = date.today())
 
-                    try:
-                        with open("./conciliando.json", mode = 'r') as fp:
-                            dados_lidos = json.load(fp)
-                            # propostas.append(dados_lidos['propostas']) 
-                            propostas.extend(dados_lidos['propostas']) 
-                            
-                    except FileNotFoundError:
-                        pass
-
-                    to_save = {"propostas": propostas}
-                    try:
-                        with open("./conciliando.json", mode = 'w') as fp:
-                            json.dump(to_save, fp)
-                    except:
-                        print("Erro ao escrever .json")
-                    self.load_ZZ = True
+                    if dados['DAT_CREDITO'].isin(range_date).any():
                         
-                else:
-                    print("Data não encontrada no ZZ: ", self.datework)
-                break
+                        dados = dados[dados['DAT_CREDITO'].isin(range_date)]
+                        
 
-    #método lê json
-    def _jsonLoad(self):
-            if self.load_ZZ:
-                with open("./conciliando.json", mode = 'r') as fp:
-                    # for line in fp:
-                    dados_lidos = json.load(fp)
-                propostas = dados_lidos['propostas']
-                setattr(self, 'propostas', propostas)
-                self.load = True
-        
+                        return dados
+                            
+                    else:
+                        print("Data não encontrada no ZZ: ", self.datework)
+                        return
 
-
-    # carrega relatório do marcantil, baixado
-    def loadMercantil(self, date: date):
+ 
+    def loadMercantil(self):
         '''
-        função para carregar os dados do mercantil, casa haja dados para a data trabalhada.
+        função para carregar os dados de novos pagamentos do mercantil (do próprio banco) em D-, este é o atraso tolerado
         '''
-
-        if self.load:
-            # path_to_read = f"./Integradas/{self.datework.year}/{self.datework.month}/relatorio_{self.datework.strftime('%d')}_{self.datework.month}_{self.datework.year}.xlsx"
-            date_search = date - timedelta(days = 10)
-            dados_mercantil = pd.DataFrame()
-            while date_search <= date:
-                path_to_read = f"./Integradas/{date_search.year}/{date_search.month}/relatorio_{date_search.strftime('%d')}_{date_search.month}_{date_search.year}.xlsx"
-                
-                if os.path.exists(path_to_read):
-                    
-                    data_read = pd.read_excel(path_to_read, parse_dates=['DataCadastro'])
-
-                    dados_mercantil = pd.concat([dados_mercantil, data_read])
-                    
-                else:
-                    None   
-
-                date_search = date_search + timedelta(days = 1)        
-            if dados_mercantil.shape[0] > 0:
+        if self.start_app:
+            date_search = self.datework
+            path_to_read = f"./Integradas/{date_search.year}/{date_search.month}/relatorio_{date_search.strftime('%d')}_{date_search.month}_{date_search.year}.xlsx"
+            if os.path.exists(path_to_read):
+                dados_mercantil = pd.read_excel(path_to_read, parse_dates=['DataCadastro'])
+                # vai salvar as propostas pagas pelo mercantil
                 return dados_mercantil
             else:
-                print(f"Data não encontrado nos relatórios")
-                return None
-        
+                None   
+                        
 
     def concilation(self):
         '''
-        função para conciliar os dados do banco com os dados do mercantil.
+        Método receve os dados de d-3 do Mewrcantil, e D-n da Nova, para conciliar o primeiro no segundo. 
         '''
-
-        if self.load:
-            # recebe as propoasta do json
-            propostas = getattr(self, 'propostas')
-            # define a data pesquisada no loop
-            datework = self.datework
-            #define data limite para pequisa nos arquivos de propostas baixadas
-            dateLimit = datework - timedelta(days = 20)
-
-            dados_mercantil = None
+        # se houverem dados no json
+        if self.start_app:
+            propostas_mercantil = self.loadMercantil()
+            propostas_nova = self.loadzz()
             
-            
-            while datework > dateLimit:
-                #carrega os dados do mercantil, para data pesquisada
-                dados_mercantil = self.loadMercantil(date = datework)
-                
-                # if dados_mercantil is not None: break
-                
-                
-                
-                if dados_mercantil is not None:
-                    # captura propstas dos dados do mercantil
-                    conciliado = set(dados_mercantil['NumeroProposta'])
-
-                    # capotura interseção das propostas
-                    instersection = set(propostas).intersection(conciliado)
-                    # nem todas as propostas são conciliadas no mesmo dia
-                        # pensar em uma soluição para pesquisar todas as propostas d+0, d-1 e d-2 que não foram concilkioadaconciliadas
-                        # solução: 1 -  criar uma variável no zz para marcar concilkiadas e não conciliadas
-                        #          2 - ao informar a data  de pesquisa, pedar dados d-3 a d-1 - obs: os mesmos dados aparecem em todos os relatorios
-                    #              3 - fazer um arquivo comente com as propostas a setem conciliadas - atualizar este arquivo
-                    
-            
-                    if len(instersection) != 0:
-                         
-                        print("Interseção encontrada!")
-                        
-                        dados_mercantil = dados_mercantil[dados_mercantil.NumeroProposta.isin(instersection)]
-                        
-                        dados_mercantil = dados_mercantil.drop_duplicates(subset=['NumeroProposta'])
-                        self.intersect = True
-
-                        setattr(self, 'intersetction', dados_mercantil)
-                        
-                        resisuo = set(propostas) - instersection
-
-                        resisuo = {'propostas': list(resisuo)}
+            if propostas_nova is not None and propostas_mercantil is not None:
+                    diffferemce_proposal = propostas_mercantil[~propostas_mercantil['NumeroProposta'].isin(propostas_nova['NUM_PROPOSTA'])]
+                    if not diffferemce_proposal.empty:
+                        print("Propostas não pagas encontradas.")
+                        print(diffferemce_proposal.tail())
+                        diffferemce_proposal.to_csv(self.path + f"/nao_pagas_{self.datework}.csv", index=False)
                         #subcreve arquivo somente com propostas não encontradas
-                        with open("./conciliando.json", 'w') as fp:
-                            json.dump(resisuo, fp)
-                        break
-                    else:
-                        print("Interseção zerada!")
+                    
 
-                datework -= timedelta(days = 1)
-            else:
-                print("Dados do dia: ", self.datework, " não encontrado nos downloads.")
- 
-    def save(self):
+    def search_payment(self, date: date):
 
-        if self.intersect:
-            print("Salvando dados")
-            makedirs('conciliados', exist_ok=True)
-            path = "./conciliados/"
-            makedirs(path + f"/{self.datework.year}/{self.datework.month}", exist_ok= True)
-            path_to_save = path + f"/{self.datework.year}/{self.datework.month}"
-            dados_to_save = getattr(self, 'intersetction')
-            dados_to_save.to_excel(excel_writer = path_to_save + f'/Conciliado_{self.datework.strftime("%d-%m-%Y")}.xlsx', index = False)
-            print("Process complit!")
+        path = f"./comissoes_nao_pagas/{date.year}/{date.month}/"
+        paths = tqdm(os.listdir(path))
+        for char in paths:
+            sleep(0.25)
+            paths.set_description("Processing dia %s/%s " % (char, date.month))
+            diretorio = path + char
+            if len(os.listdir(diretorio)) > 0: 
+                    os.system('cls')
+                    raise Exception(
+                        '''
+                        #####################################################################################################################################################################################
+
+                        ATENÇÂO! Pagamentos em atraso encontrados no diretório: %s, Avalie a proposta, e, após resolver o problema, exclua o arquivo da pasta e execute o programa novamente.
+                        
+                        #####################################################################################################################################################################################
+
+                                                '''% diretorio)
 
 
 class work_tables():
@@ -486,7 +442,7 @@ class work_tables():
         self.read_reports()
         self.comission_to_storm()
         self.production_reports()
-        self.zz()
+        # self.zz()
 
 
     def read_reports(self):
@@ -513,7 +469,8 @@ class work_tables():
             comission_storm['#VALOR_BASE_BRUTO#'] = dados['ValorEmprestimo']
             comission_storm['DataCadastro'] = comission_storm['DataCadastro'].apply(lambda x: x.split(" ")[0])
             comission_storm = comission_storm[['NumeroProposta', 'ValorEmprestimo', 	'#VALOR_BASE_BRUTO#', 	'comissao', 	'QuantidadeParcelas', 	'CodigoProduto', 	'DataCadastro']]
-            comission_storm['comissao'] = [(round(x * 12 / 100, 2) if j == 13728077  else round(x * 6 / 100, 2)) for x, j in zip(comission_storm['comissao'], comission_storm['CodigoProduto'])]
+            comission_storm['comissao'] = [(round(x * 16.50 / 100, 2) if j in [13728077, 13728127, 13728128]  else round(x * 6 / 100, 2)) for x, j in zip(comission_storm['comissao'], comission_storm['CodigoProduto'])]
+            # comission_storm['comissao'] = [(round(x * 15 / 100, 2) if j == 13728077  else round(x * 6 / 100, 2)) for x, j in zip(comission_storm['comissao'], comission_storm['CodigoProduto'])]
             print(comission_storm['comissao'])
             
             comission_storm.columns = columns_to_rename

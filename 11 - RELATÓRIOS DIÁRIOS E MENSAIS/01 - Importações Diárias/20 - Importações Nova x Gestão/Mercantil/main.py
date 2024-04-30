@@ -1,18 +1,19 @@
 from modules import openBrowser, downaload_reports, conciliation, work_tables
+
 from datetime import date
 from datetime import timedelta
 
 def main():
 
-        datework = date.today() - timedelta(days = 7)
+        datework = date.today() - timedelta(days = 4)
         # downaload_reports(driver = openBrowser().loguinSendKeys(),date = datework)
         
         while datework < date.today():
             conciliation(datework = datework)
-
-            work_tables(date_work = datework)
+            # work_tables(date_work = datework)
             
             datework += timedelta(days = 1)
+
 
         
 
@@ -22,3 +23,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    print("Todos os procedimentos foram finalizados!")
