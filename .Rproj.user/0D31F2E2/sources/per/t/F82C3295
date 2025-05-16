@@ -1,0 +1,26 @@
+{
+    "id": "F82C3295",
+    "path": "Y:/FINANCEIRO/Fagner/Dados/repos/segmentation_shiny_app/modules/funcoes_auxiliares.R",
+    "project_path": "modules/funcoes_auxiliares.R",
+    "type": "r_source",
+    "hash": "3899292717",
+    "contents": "",
+    "dirty": false,
+    "created": 1746620623244.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "493,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1746620840,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1746620840190,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ABEC7870",
+    "path": "Y:/FINANCEIRO/Fagner/Dados/repos/segmentation_shiny_app/modules/features.R",
+    "project_path": "modules/features.R",
+    "type": "r_source",
+    "hash": "1817481318",
+    "contents": "",
+    "dirty": false,
+    "created": 1746620486568.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "104,2",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1746213869,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1746213869,
+    "read_only": false,
+    "read_only_alternatives": []
+}

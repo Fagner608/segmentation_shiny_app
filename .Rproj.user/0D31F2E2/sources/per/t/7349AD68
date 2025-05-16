@@ -1,0 +1,26 @@
+{
+    "id": "7349AD68",
+    "path": "Y:/FINANCEIRO/Fagner/Dados/repos/segmentation_shiny_app/modules/libraryes.R",
+    "project_path": "modules/libraryes.R",
+    "type": "r_source",
+    "hash": "4247590389",
+    "contents": "",
+    "dirty": false,
+    "created": 1746552174501.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "6,18",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1746480357,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1746480357,
+    "read_only": false,
+    "read_only_alternatives": []
+}
